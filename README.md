@@ -51,7 +51,7 @@ const hours = Math.floor((totalSeconds % (3600 * 24)) / 3600);
 const minutes = Math.floor((totalSeconds % 3600) / 60);
 const seconds = totalSeconds % 60;
 
-console.log(`Videos checked: ${durationLabels.length}
+console.log(`Videos checked: ${durLabels.length}
 Total duration: ${days} days, ${hours} hours, ${minutes} minutes, ${seconds} seconds`);
 ```
 
